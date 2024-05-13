@@ -6,7 +6,7 @@ admin.initializeApp({
   credential: admin.credential.cert(firebaseSecrets),
 });
 
-// Access Firestore instance
+// Access Firestore   instance
 const db = admin.firestore();
 
-module.exports = db;
+module.exports = {db};
