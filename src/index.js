@@ -5,12 +5,12 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // testing route
-app.get("/", (req, res) => {
-  res.json({
-    name: "test",
-    message: "staybook express api is working",
-  });
-});
+// app.get("/", (req, res) => {
+//   res.json({
+//     name: "test",
+//     message: "staybook express api is working",
+//   });
+// });
 
 // middelware to parse the json request body similar to body-parser
 app.use(express.json());
